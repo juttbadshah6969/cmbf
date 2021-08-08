@@ -17,8 +17,11 @@ Check video
 # Install script on Termux
 
 apt install git
+
 git clone https://github.com/juttbadshah6969/cmbf/
+
 cd cmbf
+
 bash setup.sh
 
 # Run script
@@ -26,6 +29,3 @@ bash setup.sh
 cd cmbf
 
 python2 run.so
-
-
-Notice Me : Please Don't Change Name Author Thanks For Using My Script
