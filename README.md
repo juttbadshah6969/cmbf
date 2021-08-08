@@ -16,23 +16,10 @@ Check video
 
 # Install script on Termux
 
-apt update && apt upgrade
-
-apt install python2
-
-pip2 install mechanize
-
-pip2 install requests bs4
-
 apt install git
-
-pip2 install futures
-
-termux-setup-storage
-
-rm -rf cmbf
-
 git clone https://github.com/juttbadshah6969/cmbf/
+cd cmbf
+bash setup.sh
 
 # Run script
 
